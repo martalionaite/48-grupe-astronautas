@@ -12,6 +12,10 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     margin-bottom: 40px;
