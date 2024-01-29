@@ -24,7 +24,7 @@ body {
     gap: 40px;
     width: 800px;
     /* margin-left: calc((100% - 800px) / 2); */
-    background-color: yellow;
+
 }
 
 .logo {
@@ -41,10 +41,18 @@ body {
     font-size: 20px;
     text-decoration: none;
     color: black;
+    border-bottom: 3px solid transparent;
 }
+
 .main-nav > .nav-link.active {
-    border-bottom: 5px solid red;
+    border-color: red;
 }
+.main-nav > .nav-link:hover {
+    border-color: blue;
+}
+
+
+
 
 .column-left {
 }
